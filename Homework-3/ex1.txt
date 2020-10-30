@@ -1,0 +1,11 @@
+Web components:
+- là một tập các quy chuẩn công nghệ dùng cho việc xây dựng các thành phần trang web được đóng gói (tách biệt với phần code còn lại của ứng dụng) và có thể tái sử dụng.
+
+Web Components mang đến 3 công nghệ chính:
+
+- Custom elements: Một bộ API JavaScript cho phép định nghĩa các custom element và hành vi của chúng, sau đó có thể được sử dụng như mong muốn trong giao diện người dùng.
+- Shadow DOM: một bộ API JavaScript cho phép đóng gói một cây DOM "ẩn" vào trong một element và kiểm soát các chức năng liên quan của element (đây là một DOM hoàn toàn tách biệt với DOM chính (main document DOM) ). Bằng cách này, chúng ta có thể giữ các chức năng của element ở mức độ private, để chúng có thể xử lý logic và style mà không hề gây xung đột với các phần bên ngoài.
+- HTML templates: Bao gồm 2 element <template> và <slot> cho phép viết các mẫu html mà không hiển thị trong view. Những mẫu này có thể sử dụng lại nhiều lần.
+
+Công Dụng:
+- Web components là các thành phần UI của 1 trang web được đóng gói lại để sử dụng cho nhiều project khác nhau.
